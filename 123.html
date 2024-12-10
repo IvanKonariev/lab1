@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Document - Variant 3 (Updated)</title>
+</head>
+
+<body>
+    <header>
+        <h1>Пример страницы: Вариант 3</h1>
+        <p>Эта страница выполнена в рамках лабораторной работы №1 по курсу "Интернет-технологии".</p>
+    </header>
+
+    <section>
+        <h2>Формула: E=mc²</h2>
+        <p><strong>E</strong> - energy of the object, <strong>m</strong> - its mass, <strong>c</strong> - speed of light
+            in vacuum, equals to <em>299 792 458 m/s</em>.</p>
+    </section>
+
+    <section>
+        <h2>Выпадающий список студентов группы</h2>
+        <label for="students">Выберите студента:</label>
+        <select id="students" name="students">
+            <option value="student1">Иван Иванов</option>
+            <option value="student2">Мария Петрова</option>
+            <option value="student3">Алексей Сидоров</option>
+            <option value="student4">Елена Кузнецова</option>
+        </select>
+    </section>
+
+    <section>
+        <h2>Таблица содержания книги</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Название раздела</th>
+                    <th>Страница</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Введение</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Основы HTML</td>
+                    <td>15</td>
+                </tr>
+                <tr>
+                    <td>Работа с формами</td>
+                    <td>45</td>
+                </tr>
+                <tr>
+                    <td>Таблицы и списки</td>
+                    <td>78</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Форма для ввода информации о студенте</h2>
+        <form action="#" method="POST">
+            <label for="name">Имя:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="surname">Фамилия:</label><br>
+            <input type="text" id="surname" name="surname" required><br>
+            <label for="age">Возраст:</label><br>
+            <input type="number" id="age" name="age" min="16" max="100" required><br>
+            <label for="group">Группа:</label><br>
+            <input type="text" id="group" name="group" required><br>
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Гиперссылка</h2>
+        <p>Для перехода на раздел "Таблица содержания книги" нажмите <a href="#table_of_contents">сюда</a>.</p>
+    </section>
+</body>
+
+</html>
